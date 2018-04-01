@@ -34,5 +34,10 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
+    'pinterest' => [
+        'client_id' => env('4958993727407273854'),
+        'client_secret' => env('077e983bda16c6c191e6c19f7b3b2c4a7b827ab5bc28237304a0a471833896b0'),
+        'redirect' => env('https://pinback.test'),  
+    ], 
 
 ];
